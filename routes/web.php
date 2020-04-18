@@ -25,4 +25,5 @@ Route::get('/template', function(){
 
 // START ADMIN HESEG
 Route::get('/admins', 'AdminController@showAdmin');
+Route::get('/show/admins', 'AdminController@getAdmins');
 // END ADMIN HESEG
