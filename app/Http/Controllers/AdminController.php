@@ -19,6 +19,7 @@ class AdminController extends Controller
     }
 
     public function getAdmins(){
+        // return auth()->user();
         $users = DB::table("users")->get();
         return DataTables::of($users)
               ->make(true);

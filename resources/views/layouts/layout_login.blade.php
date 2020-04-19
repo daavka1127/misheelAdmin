@@ -10,10 +10,10 @@
 
     <link rel="icon" type="image/x-icon" href="{{url('public/images/gsmaf_logo.ico')}}"/>
     <!-- jQuery -->
-    <script src="{{url("public/plugins/jquery/jquery.min.js")}}"></script>
+    <script src="{{url('public/vendors/jquery/dist/jquery.min.js')}}"></script>
     <!-- Bootstrap -->
-    <script src="{{url("public/plugins/bootstrap/js/bootstrap.js")}}"></script>
-    <link href="{{url("public/plugins/bootstrap/css/bootstrap.css")}}" rel="stylesheet">
+    <script src="{{url('public/vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+    <link href="{{url('public/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
 
 
 
@@ -23,7 +23,7 @@
     <script src="{{ asset('public/z-alert/js/alertify.min.js') }}"></script>
     <!--Zagvarlag alert-->
 
-    <title>Мишээл карго</title>
+    <title>Мишээл карго-Нэвтрэх хэсэг</title>
   </head>
   <body>
 

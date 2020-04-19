@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.layout_master');
-})->middleware('auth');
+Route::get('/', 'HomeController@index');
 
 Auth::routes();
 
@@ -25,5 +23,5 @@ Route::get('/template', function(){
 
 // START ADMIN HESEG
 Route::get('/admins', 'AdminController@showAdmin');
-Route::get('/show/admins', 'AdminController@getAdmins');
+Route::post('/show/admins', 'AdminController@getAdmins');
 // END ADMIN HESEG
